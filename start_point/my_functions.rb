@@ -17,3 +17,9 @@ def is_item_in_array(houses, houseExists)
     end
     return false
 end
+
+def get_first_key(wallets)
+    return wallets.keys.first
+end
+
+
